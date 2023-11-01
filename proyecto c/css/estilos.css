@@ -1,0 +1,294 @@
+/* Variables */
+:root {
+    --colorPrimario: #484242;
+    --colorSecundario: #ff5100;
+    --colorTerciario: #00da0f;
+    --eliminar: #db0000;
+    --blanco: #ffffff;
+    --negro: #000000;
+
+    --fuenteTitulo: 'Oswald', sans-serif;
+    --fuentePrincipal: 'Roboto Condensed', sans-serif;
+
+}
+
+/* Global */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+
+}
+
+body {
+    margin: 0;
+    font-family: var(--fuentePrincipal);
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--blanco);
+
+}
+
+h1,
+h2 {
+    font-family: var(--fuenteTitulo);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+}
+section{
+    margin: 2rem 10rem;
+}
+
+/*header*/
+.heroInicio {
+    background-image: url(../img/Imagen_Hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 40rem;
+    background-position: center;
+
+
+}
+
+.heroInicio__contenido {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5rem;
+    color: var(--blanco);
+
+}
+
+.logo {
+    width: 20rem;
+}
+
+.hero__idioma {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+
+}
+
+.menu-config * {
+    margin: 0 0.5rem;
+}
+
+.menu-config {
+    margin-bottom: 4rem;
+}
+
+.navegacion {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacion a {
+    font-size: 3rem;
+    margin: 0 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navegacion a:hover {
+    color: #aaa6a6;
+}
+
+.lema-inmobiliaria {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        margin: 1rem 0;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .lema-inmobiliaria {
+        text-align: start;
+        margin: 10rem 0;
+        font-size: 2.3rem;
+    }
+
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: var(--colorPrimario);
+}
+
+.navegacion-footer {
+    justify-content: start;
+    margin: 0;
+    flex-direction: row;
+}
+
+.navegacion-footer a {
+    font-size: 2rem;
+}
+
+.menu-config-footer {
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoFooter {
+    margin-top: 3rem;
+}
+
+.contacto__empresa {
+    margin: 3rem;
+    color: var(--blanco);
+
+}
+
+.texto-contacto {
+    margin: auto 0.5rem;
+    font-size: 1.4rem;
+}
+
+.item-contacto {
+    justify-content: center;
+}
+
+.p-derechos-reservados {
+    color: var(--blanco);
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+    .contenedor__footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item-contacto {
+        justify-content: left;
+        padding-right: 3rem;
+    }
+}
+
+
+
+/*INICIO: */
+/*SECCION 1*/
+.beneficios__titulo{
+    font-size: 6rem;
+    margin: 3rem;
+    font-weight: bold;
+}
+.objeto-beneficio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 4rem auto;
+}
+.objeto-beneficio *{
+    text-align: center;
+
+}
+.objeto-beneficio__titulo{
+    font-size: 4rem;
+    margin: 1rem;
+}
+.objeto-beneficio__texto{
+    font-size: 1.6rem;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .beneficios__contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 4rem;
+    }
+}
+/*SECCION 2:*/
+
+.titulo__seccionVenta{
+    font-size: 6rem;
+    margin: 5rem;
+}
+.inmueble-card{
+    margin-top: 4rem;
+
+}
+.propiedad__titulo-card{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+    font-weight: bold;
+
+}
+.propiedad__text-card,
+.propiedad__precio-card
+{
+    font-size: 1.5rem;
+    margin: 0 2rem ;
+}
+.propiedad__cantidad{
+    margin: auto 1rem;
+}
+.propiedad__precio-card{
+    color: var(--colorTerciario);
+    font-size: 3rem;
+}
+
+.iconos-propiedad{
+
+    font-size: 1.5rem;
+    margin: auto 2rem;
+}
+.btn-VerPropiedad{
+    background-color: var(--colorSecundario);
+    margin: 2rem auto;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--blanco);
+    width: 90%;
+}
+.btn-VerPropiedad:hover{
+    background-color: #f76420;
+}
+.iconos-propiedad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.img-propiedad-card{
+    height: 20rem;
+}
+@media (min-width: 980px) {
+
+    .contenedor-inmueblesVenta{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 8rem;
+
+    }
+}

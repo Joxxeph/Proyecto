@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASA IMPERIAL Inmobiliaria</title>
+    <link rel="preload" href="../css/estilos.css" as="style" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/estilos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="heroInicio">
+        <div class="heroInicio__contenido">
+            <div>
+                <div class="d-flex justify-content-between">
+                    <a href="index.html">
+                        <img class="logo" src="../img/logo.png" alt="logo">
+                    </a>
+                    <div class="menu-config d-flex aling-items-center justify-content-end">
+                        <select id="idioma" title="idioma" class="hero__idioma">
+                            <option name="spanish" value="spanish" id="idiomaEspañol">ESP</option>
+                            <option name="english" value="english" id="idiomaIngles">ENG</option>
+                        </select>
+
+                        <button type="button" class="bg-transparent border-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="44"
+                                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+                            </svg>
+                        </button>
+
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-key" width="44"
+                                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M16.555 3.843l3.602 3.602a2.877 2.877 0 0 1 0 4.069l-2.643 2.643a2.877 2.877 0 0 1 -4.069 0l-.301 -.301l-6.558 6.558a2 2 0 0 1 -1.239 .578l-.175 .008h-1.172a1 1 0 0 1 -.993 -.883l-.007 -.117v-1.172a2 2 0 0 1 .467 -1.284l.119 -.13l.414 -.414h2v-2h2v-2l2.144 -2.144l-.301 -.301a2.877 2.877 0 0 1 0 -4.069l2.643 -2.643a2.877 2.877 0 0 1 4.069 0z" />
+                                <path d="M15 9h.01" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <nav class="navegacion">
+                    <a href="#">Nosotros</a>
+                    <a href="#">Propiedades</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>
+            <p class="lema-inmobiliaria">Tiene sus raices en una pieza clasica de la literatura del Latin</p>
+
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2 class="titulo__seccionVenta">Casas y apartamentos en venta</h2>
+            <div class="contenedor-inmueblesVenta">
+                <div class="card inmueble-card">
+                    <img src="../img/casa-lujo1.jpg" class="card-img-top img-propiedad-card" alt="imagen-inmueble">
+                    <div class="card-body">
+                        <h5 class="card-title propiedad__titulo-card">Casa Conjunto Rosales</h5>
+                        <p class="card-text propiedad__text-card">Tipo de inmueble: Casa</p>
+                        <p class="card-text propiedad__text-card">Massa vivamus mus eget euismod velit, class quis aliquam
+                            curae scelerisque conubia vehicula eu mollis congue curabitur</p>
+                        <p class="card-text propiedad__precio-card">$450.000.000</p>
+                        <div class="iconos-propiedad ">
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bath"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4 12h16a1 1 0 0 1 1 1v3a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-3a1 1 0 0 1 1 -1z" />
+                                    <path d="M6 12v-7a2 2 0 0 1 2 -2h3v2.25" />
+                                    <path d="M4 21l1 -1.5" />
+                                    <path d="M20 21l-1 -1.5" />
+                                </svg>
+                                <p class="propiedad__cantidad">2</p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car-garage"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M5 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                    <path d="M15 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                    <path d="M5 20h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+                                    <path d="M3 6l9 -4l9 4" />
+                                </svg>
+                                <p class="propiedad__cantidad">1</p>
+
+                            </div>
+                            <div class="d-flex">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bed"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
+                                    <path d="M7 10m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                                </svg>
+                                <p class="propiedad__cantidad">3</p>
+
+
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                                </svg>
+                                <p class="propiedad__cantidad">70m<sup>2</sup></p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ruler-3"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.875 8c.621 0 1.125 .512 1.125 1.143v5.714c0 .631 -.504 1.143 -1.125 1.143h-15.875a1 1 0 0 1 -1 -1v-5.857c0 -.631 .504 -1.143 1.125 -1.143h15.75z" />
+                                    <path d="M9 8v2" />
+                                    <path d="M6 8v3" />
+                                    <path d="M12 8v3" />
+                                    <path d="M18 8v3" />
+                                    <path d="M15 8v2" />
+                                </svg>
+                                <p class="propiedad__cantidad">95m<sup>2</sup></p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                                  </svg>
+                                <p class="propiedad__cantidad">Medellín</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-VerPropiedad">Ver Propiedad</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card inmueble-card">
+                    <img src="../img/casa-lujo2.jpg" class="card-img-top img-propiedad-card" alt="imagen-inmueble">
+                    <div class="card-body">
+                        <h5 class="card-title propiedad__titulo-card">Casa Campestre La Finca</h5>
+                        <p class="card-text propiedad__text-card">Tipo de inmueble: Casa</p>
+                        <p class="card-text propiedad__text-card">Massa vivamus mus eget euismod velit, class quis aliquam
+                            curae scelerisque conubia vehicula eu mollis congue curabitur</p>
+                        <p class="card-text propiedad__precio-card">$790.000.000</p>
+                        <div class="iconos-propiedad ">
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bath"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4 12h16a1 1 0 0 1 1 1v3a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-3a1 1 0 0 1 1 -1z" />
+                                    <path d="M6 12v-7a2 2 0 0 1 2 -2h3v2.25" />
+                                    <path d="M4 21l1 -1.5" />
+                                    <path d="M20 21l-1 -1.5" />
+                                </svg>
+                                <p class="propiedad__cantidad">3</p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car-garage"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M5 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                    <path d="M15 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                    <path d="M5 20h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+                                    <path d="M3 6l9 -4l9 4" />
+                                </svg>
+                                <p class="propiedad__cantidad">2</p>
+
+                            </div>
+                            <div class="d-flex">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bed"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
+                                    <path d="M7 10m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                                </svg>
+                                <p class="propiedad__cantidad">4</p>
+
+
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                                </svg>
+                                <p class="propiedad__cantidad">80m<sup>2</sup></p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ruler-3"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.875 8c.621 0 1.125 .512 1.125 1.143v5.714c0 .631 -.504 1.143 -1.125 1.143h-15.875a1 1 0 0 1 -1 -1v-5.857c0 -.631 .504 -1.143 1.125 -1.143h15.75z" />
+                                    <path d="M9 8v2" />
+                                    <path d="M6 8v3" />
+                                    <path d="M12 8v3" />
+                                    <path d="M18 8v3" />
+                                    <path d="M15 8v2" />
+                                </svg>
+                                <p class="propiedad__cantidad">120m<sup>2</sup></p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                                  </svg>
+                                <p class="propiedad__cantidad">Pereira</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-VerPropiedad">Ver Propiedad</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card inmueble-card">
+                    <img src="../img/apto-lujo.jpg" class="card-img-top img-propiedad-card" alt="imagen-inmueble">
+                    <div class="card-body">
+                        <h5 class="card-title propiedad__titulo-card">Apto Edficio de Lujo</h5>
+                        <p class="card-text propiedad__text-card">Tipo de inmueble: Apartamento</p>
+                        <p class="card-text propiedad__text-card">Massa vivamus mus eget euismod velit, class quis aliquam
+                            curae scelerisque conubia vehicula eu mollis congue curabitur</p>
+                        <p class="card-text propiedad__precio-card">$550.000.000</p>
+                        <div class="iconos-propiedad ">
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bath"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4 12h16a1 1 0 0 1 1 1v3a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-3a1 1 0 0 1 1 -1z" />
+                                    <path d="M6 12v-7a2 2 0 0 1 2 -2h3v2.25" />
+                                    <path d="M4 21l1 -1.5" />
+                                    <path d="M20 21l-1 -1.5" />
+                                </svg>
+                                <p class="propiedad__cantidad">2</p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car-garage"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M5 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                    <path d="M15 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                    <path d="M5 20h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+                                    <path d="M3 6l9 -4l9 4" />
+                                </svg>
+                                <p class="propiedad__cantidad">1</p>
+
+                            </div>
+                            <div class="d-flex">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bed"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
+                                    <path d="M7 10m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                                </svg>
+                                <p class="propiedad__cantidad">3</p>
+
+
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                                </svg>
+                                <p class="propiedad__cantidad">60m<sup>2</sup></p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ruler-3"
+                                    width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.875 8c.621 0 1.125 .512 1.125 1.143v5.714c0 .631 -.504 1.143 -1.125 1.143h-15.875a1 1 0 0 1 -1 -1v-5.857c0 -.631 .504 -1.143 1.125 -1.143h15.75z" />
+                                    <path d="M9 8v2" />
+                                    <path d="M6 8v3" />
+                                    <path d="M12 8v3" />
+                                    <path d="M18 8v3" />
+                                    <path d="M15 8v2" />
+                                </svg>
+                                <p class="propiedad__cantidad">80m<sup>2</sup></p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                                  </svg>
+                                <p class="propiedad__cantidad">Bógota</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-VerPropiedad">Ver Propiedad</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    
+                </div>
+        </section>
+        <section>
+            <h2 class="beneficios__titulo">Sobre nosotros</h2>
+            <div class="beneficios__contenedor">
+                <div class="objeto-beneficio">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lock" width="150"
+                        height="150" viewBox="0 0 24 24" stroke-width="2" stroke="#ff5100" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z" />
+                        <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+                        <path d="M8 11v-4a4 4 0 1 1 8 0v4" />
+                    </svg>
+
+                    <h3 class="objeto-beneficio__titulo">Seguridad</h3>
+                    <p class="objeto-beneficio__texto">Eros senectus diam tellus habitasse massa vivamus mus eget
+                        euismod velit, class quis aliquam
+                        curae scelerisque conubia vehicula eu mollis congue curabitur, nibh odio dapibus tristique
+                        venenatis lectus maecenas hendrerit pellentesque. Fusce senectus cum aptent ullamcorper erat
+                        tempus faucibus vestibulum iaculis dis, malesuada mauris curabitur nam fames ridiculus diam
+                        lacinia. </p>
+                </div>
+
+                <div class="objeto-beneficio">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cash" width="150"
+                        height="150" viewBox="0 0 24 24" stroke-width="2" stroke="#ff5100" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M7 9m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+                        <path d="M14 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 9v-2a2 2 0 0 0 -2 -2h-10a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2" />
+                    </svg>
+
+                    <h3 class="objeto-beneficio__titulo">Precio</h3>
+                    <p class="objeto-beneficio__texto">Massa vivamus mus eget euismod velit, class quis aliquam
+                        curae scelerisque conubia vehicula eu mollis congue curabitur, nibh odio dapibus tristique
+                        venenatis lectus maecenas hendrerit pellentesque. Fusce senectus cum aptent ullamcorper erat
+                        tempus faucibus vestibulum iaculis dis, malesuada mauris curabitur nam fames ridiculus diam
+                        lacinia lupus corde manlo jusdo mantara yuluian sodurl masnra porrutaria. </p>
+                </div>
+
+                <div class="objeto-beneficio">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-briefcase" width="150"
+                        height="150" viewBox="0 0 24 24" stroke-width="2" stroke="#ff5100" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                        <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+                        <path d="M12 12l0 .01" />
+                        <path d="M3 13a20 20 0 0 0 18 0" />
+                    </svg>
+
+                    <h3 class="objeto-beneficio__titulo">Servicio</h3>
+                    <p class="objeto-beneficio__texto">Scelerisque conubia vehicula eu mollis congue curabitur, nibh
+                        odio dapibus tristique
+                        venenatis lectus maecenas hendrerit pellentesque. Fusce senectus cum aptent ullamcorper erat
+                        tempus faucibus vestibulum iaculis dis, malesuada mauris curabitur nam fames ridiculus diam
+                        lacinia eros senectus diam tellus habitasse massa vivamus mus eget euismod velit, class quis
+                        aliquam
+                        curae . </p>
+                </div>
+
+            </div>
+        </section>
+        
+
+    </main>
+    <footer>
+        <div class="contenedor__footer">
+            <div class="menu-config-footer d-flex ">
+                <div>
+                    <nav class="navegacion navegacion-footer">
+                        <a href="#">Nosotros</a>
+                        <a href="#">Propiedades</a>
+                        <a href="#">Contacto</a>
+                    </nav>
+                </div>
+
+                <a href="index.html">
+                    <img class="logo logoFooter" src="../img/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <div class="contacto__empresa">
+                <div class="item-contacto d-flex aling-items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="33"
+                        height="33" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    </svg>
+                    <p class="texto-contacto">(608) 8951243 - 320 4567915</p>
+                </div>
+
+                <div class="item-contacto d-flex aling-items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="33"
+                        height="33" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                        <path d="M3 7l9 6l9 -6" />
+                    </svg>
+                    <p class="texto-contacto">atencionalclientecasaimperial@gmail.com - juridicacasaimperial@gmail.com
+                    </p>
+                </div>
+
+                <div class="item-contacto d-flex aling-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="33"
+                        height="33" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                    <p class="texto-contacto">Carrera 52 # 10 - 74 Neiva-Huila, Colombia</p>
+                </div>
+
+                <div class="item-contacto d-flex aling-items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="33"
+                        height="33" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M12 7v5l3 3" />
+                    </svg>
+                    <p class="texto-contacto">Lunes a Viernes 8:00 - 11:30 y 2:00 - 5:00 | Sábados 9:00 - 12:00</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="p-derechos-reservados">Todos los derechos reservados &copy;</p>
+
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
